@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+}
+
+body {
+  padding-bottom: 80px;
+}
+
+.header {
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start-bootstrap {
+  margin-left: 40px;
+}
+
+button {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  color: white;
+  background-color: #0d6efd;
+  margin-right: 40px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.generate {
+  font-family: Roboto;
+  color: rgb(192, 192, 192);
+  width: 400px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-bar {
+  height: 40px;
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 120px;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.input-button {
+  height: 41px;
+  border: none;
+  margin-left: -6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #0d6efd;
+}
+
+.middle-container {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.generate-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
