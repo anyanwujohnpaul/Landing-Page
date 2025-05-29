@@ -1,12 +1,8 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, Arial;
-}
-
-body {
-  padding-bottom: 80px;
 }
 
 .header {
@@ -36,6 +32,21 @@ button {
   border-radius: 3px;
 }
 
+.first-container {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.generate-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
 .generate {
   font-family: Roboto;
   color: rgb(192, 192, 192);
@@ -63,22 +74,28 @@ button {
   background-color: #0d6efd;
 }
 
-.first-container {
-  background-color: blue;
-  display: flex;
-  justify-content: center;
+.third-section {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
   align-items: center;
-  height: 400px;
+  justify-content: center;
+  row-gap: 30px;
+  margin-top: 20px;
 }
 
-.generate-container {
+.accessibility-container,
+.bootstrap-container,
+.folder-container {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 
-.folder-icon, .square-stack, .command-line {
+.folder-icon,
+.square-stack,
+.command-line {
   height: 70px;
   width: 70px;
 }
@@ -90,30 +107,45 @@ button {
   font-size: 20px;
 }
 
-
-.third-section {
-  height: 300px;
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  align-items: center;
-  justify-content: center;
-  row-gap: 30px;
-  margin-top: 20px;
-}
-
-.accessibility-container, .bootstrap-container, .folder-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .headline-content {
   font-size: 30px;
   margin-bottom: 10px;
   font-weight: 450;
 }
 
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  height: 600px;
+}
 
+.background-image-container {
+  width: 42%;
+  height: 600px;
+}
 
+.content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-description {
+  width: 400px;
+  color: rgb(96, 96, 96);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.frd {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 450;
+   display: flex;
+  justify-content: center;
+}
 
